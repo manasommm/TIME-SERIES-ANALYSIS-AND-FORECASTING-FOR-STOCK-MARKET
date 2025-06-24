@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "stock_dashboard.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "50mb" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "stock_dashboard.py"
+    }
+  ]
+}
