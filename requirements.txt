@@ -3,8 +3,6 @@ yfinance
 pandas
 numpy
 plotly
-prophet
+fbprophet
 statsmodels
 scikit-learn
-tensorflow
-keras
